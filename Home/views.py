@@ -139,7 +139,7 @@ def Login (request):
         pass22 = request.POST.get('pass22')
 
 
-        if user22 == "12345" and pass22 == "12345":
+        if user22 == "leddark" or user22 == "abood.leddark@gmail.com" and pass22 == "123456789":
             name1 = 'عبدالله مازن الحداد'
             User = 'leddark'
             email = 'abood.leddark@gmail.com'
