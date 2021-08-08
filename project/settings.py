@@ -88,16 +88,7 @@ WSGI_APPLICATION = 'project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'graduation_project',
-        'USER': 'root',
-        'PASSWORD' : '',
-        'Host': 'localhost:8080',
-        'PORT': '3306',
-    }
-}
+
 DATABASES = {
 	'default': dj_database_url.config()
 }
