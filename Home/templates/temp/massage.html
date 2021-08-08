@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <!-- ________________________________________________________________________________________________ -->
+    <meta charset="utf-8">
+    
+    
+    <!-- هذه السطر ثابت ويعني ان الموقع يعمل على الهاتف بمقياسه -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- نكتب في كونتينت ماذا يفعل او ما فائدة الموقع ليسهل البحث ويضهر للمستخدمين -->
+    <meta name="description" content="أداة التشفير ليدارك تتميز بأكثر من 90 شكل تشفير للنص نفسه ولكل شكل مفتاح خاص فيه. يمكنك التجربة الان ♥ ">
+    <!-- نكتب في الكونتينت الكلمات المفتاحية المتعلقة بمحتوى الصفحة، مفصولٌ بينهما بفاصلة -->
+    <meta name="keywords" content="google,search engine,meta,HTML,CSS,JavaScript,Encrypt,Decrypt,تشفير,فك تشفير , Abdullh Mazen,عبدالله مازن">
+    <!-- نكتب في الكونينت اسم مصمم الموقع -->
+    <meta name="author" content="Abdullah Mazen Al-Haddad">
+
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    </noscript>
+    <link href="{% static 'css/font-awesome/css/all.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/aos.css' %}" rel="stylesheet">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+
+
+    <!-- شعار او صورة الذي يظهر بجانب عنوان الصفحة -->
+    <link rel="icon" href="{% static 'images/41VDihWl99L.png' %}" type="image/jpg">
+
+    <!-- css  bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- fontawesome ايقونات -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <!-- موقع خطوط جوجل -->
+    <!-- https://fonts.google.com/ --> 
+    <!-- عند تغير الخط يجب تغير هذا السطر ويمكن الحصول عليه من خلال موقع خطوط جوجل -->
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap" rel="stylesheet">
+    <!--  خط الموقع كاملا ويمكنك تغيره من خلال موقع خطوط جوجل-->
+    
+
+
+    <style>body{font-family: 'El Messiri', sans-serif; font-size: 18px;
+    
+        background-image: url("../static/img/211931.gif");
+
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        
+
+
+      
+
+
+}</style>
+
+
+    <!-- يوجد بعض العناصر لا تشتغل على بعض المتصفحات فهذا فائدته يقوم بتشغل العناصر على كافة المتصفحات -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ________________________________________________________________________________________________ -->
+    <!-- load CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">                                  <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="{% static 'fontawesome/css/fontawesome-all.min.css' %}">                <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" type="text/css" href="{% static 'slick/slick.css' %}"/>                       <!-- http://kenwheeler.github.io/slick/ -->
+    <link rel="stylesheet" type="text/css" href="{% static 'slick/slick-theme.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/tooplate-style.css'%}">                               <!-- Templatemo style -->
+    
+
+
+
+
+    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this in a modern browser such as latest version of Chrome or Microsoft Edge.");</script>
+    <title>الرسالة</title>
+</head>
+
+<body  style="font-family: 'El Messiri', sans-serif; font-size: 18px;">
+
+
+
+
+
+   
+
+    <nav class="navbar navbar-expand-lg navbar-light  cover-bg " style="background-color: #9220378c; border-radius: 6px;">
+      
+      <a class="navbar-brand " href="#" style="color: #ffffff; text-align: center;"><i style="font-size: 50px;" class="fas fa-user-circle"></i><br>{{name1}}</a>
+      
+      
+      <button  style="color: #2d69698c; background-color: #ffffff;"  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span    class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse cover-bg" id="navbarSupportedContent" style="text-align: center; background-color: rgba(199, 97, 110, 0.644)  ;">
+
+        
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a   style="color: #ffffff;"  class="nav-link smooth-scroll" href="{% url 'Home' %}"><i class="fas fa-house-user"></i><br>الصفحة الرئيسة</a></li>
+            <li class="nav-item"><a  style="color: #ffffff;"  class="nav-link smooth-scroll" href="{% url 'Lidark_algorithm' %}"><i class="fas fa-hamsa"></i><br>خوارزمية ليدارك</a></li>
+      
+            <li class="nav-item"><a  style="color: #ffffff;"  class="nav-link smooth-scroll" href="{% url 'sub_domin' %}"><i class="fab fa-deviantart"></i><br>المجالات الفرعية</a></li>
+            <li class="nav-item"><a  style="color: #ffffff;"  class="nav-link smooth-scroll" href="{% url 'Generate_password' %}"><i class="fas fa-project-diagram"></i><br>توليد كلمات مرور</a></li>
+            <li class="nav-item"><a   style="color: #ffffff;"  class="nav-link smooth-scroll" href="{% url 'port_scan' %}"><i class="fab fa-megaport"></i><br>فحص المنافذ</a></li>
+            <li class="nav-item"><a   style="color: #ffffff;"  class="nav-link smooth-scroll" href="{% url 'login' %}"><i class="fas fa-sign-out-alt"></i><br>خروج</a></li>
+            
+            
+            
+      
+          </ul>
+
+
+       
+     
+
+
+
+      </div>
+    </nav>
+
+
+
+
+      <br><br>
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+
+              
+
+                                                                                      
+    <div class="alert alert-dark cover-bg" role="alert" style="text-align: center;">
+        <i class="fas fa-comments fa-3x tm-nav-icon"> رسالة </i>
+    </div>                                
+
+   
+    <br> 
+    <hr>
+    <form action="" method="post" class="contact-form">
+      {% csrf_token %}
+      <div class="row">
+          <div class="form-group col-md-6 col-lg-6 col-xl-6">
+            <input style="background-color: #35354162;border:2px solid rgb(255, 255, 255)" type="text" id="contact_name" name="contact_name" class="form-control cover-bg" placeholder="الإسم"  required/>
+          </div>
+          <div class="form-group col-md-6 col-lg-6 col-xl-6 tm-col-email">
+            <input style="background-color: #35354162;border:2px solid rgb(255, 255, 255)" type="email" id="contact_email" name="contact_email" class="form-control cover-bg" placeholder="البريد الإلكتروني"  required/>
+          </div>
+      </div>                                                        
+      <div class="form-group">
+        <textarea style="background-color: #35354162;border:2px solid rgb(255, 255, 255) ;height:200px;" id="contact_message" name="contact_message" class="form-control cover-bg" rows="9" placeholder="محتوى الرسالة" required></textarea>
+      </div>
+      <div style="text-align:center">
+      <button style="background-color: #35354162;border:2px solid rgb(255, 255, 255)" type="submit" class="btn btn-secondary ">إرسال</button>
+    </div>
+  </form> 
+                                        
+</div>
+
+<br><br><br>
+<br>
+<hr>
+<footer class="pt-4 pb-4 text-muted text-center d-print-none cover-bg " style="background-color: #9220378c  ;">
+    <div class="container">
+      <div class="my-3">
+        <div class="h4" style="color: rgb(255, 255, 255);  font-family: 'El Messiri', sans-serif; font-size: 18px;"><i style="font-size: 50px;" class="fab fa-phoenix-framework"></i><br>أحمد نائل الحداد</div>
+        <div class="footer-nav">
+          <nav role="navigation">
+
+
+            <ul class="nav justify-content-center cover-bg" style="color: #ffffff; background-color: rgba(199, 97, 110, 0.644); border-radius: 6px;">
+             
+              <li class="nav-item"><a target="_blank" class="nav-link" href="https://cutt.us/twitter-Ahmed" title="Twitter"><i class="fab fa-twitter" style="color: #fcfcfc;"></i><span class="menu-title sr-only">Twitter</span></a>
+              </li>
+              <li class="nav-item"><a target="_blank" class="nav-link" href="https://www.facebook.com/Home.Lidark" title="Facebook"><i class="fab fa-facebook" style="color: #fcfcfc;"></i><span class="menu-title sr-only">Facebook</span></a>
+              </li>
+              <li class="nav-item"><a target="_blank" class="nav-link" href="https://cutt.us/inst-Ahmed"  title="Instagram"><i class="fab fa-instagram" style="color: #fcfcfc;"></i><span class="menu-title sr-only">Instagram</span></a>
+              </li>
+              <li class="nav-item"><a target="_blank" class="nav-link" href="https://cutt.us/github-Ahmed" title="Github"><i class="fab fa-github" style="color: #fcfcfc;"></i><span class="menu-title sr-only">Github</span></a>
+              </li>
+           
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="text-small" style="color: rgb(255, 255, 255);">
+        <div class="mb-1">&copy;  جميع الحقوق محفوظة.</div>
+        <div>لصالح المطور - <a  target="_blank">أحمد الحداد</a></div>
+      </div>
+    </div>
+  </footer>
+    <script src="{% static 'scripts/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'scripts/aos.js' %}"></script>
+    <script src="{% static 'scripts/main.js' %}"></script>
+
+
+  
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+    <!-- load JS -->
+    <script src="{% static 'js/jquery-3.2.1.slim.min.js' %}"></script>         <!-- https://jquery.com/ -->    
+    <script src="{% static 'slick/slick.min.js' %}"></script>                  <!-- http://kenwheeler.github.io/slick/ -->  
+    <script src="{% static 'js/anime.min.js' %}"></script>                     <!-- http://animejs.com/ -->
+    <script src="{% static 'js/main.js' %}"></script>  
+
+     
+
+    <script>      
+
+        function setupFooter() {
+            var pageHeight = $('.tm-site-header-container').height() + $('footer').height() + 100;
+
+            var main = $('.tm-main-content');
+
+            if($(window).height() < pageHeight) {
+                main.addClass('tm-footer-relative');
+            }
+            else {
+                main.removeClass('tm-footer-relative');   
+            }
+        }
+
+        /* DOM is ready
+        ------------------------------------------------*/
+        $(function(){
+
+            setupFooter();
+
+            $(window).resize(function(){
+                setupFooter();
+            });
+
+            $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright           
+        });
+
+    </script>             
+
+<!-------------------------------------------------------------نهاية الصفة - End -------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- _____________________________________________________________________________________________________________________________________________________________________________________________ -->
+    <!-- ملفات bootstrap يجب وضعها بالترتيب -->
+    <!-- اولاjQuery ثانيا  ثم Popper.js ثالثا ثم  Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- ______________________________________________________________________________________________________________________________________________________________________________________________ -->
+
+
+    
+            <!-- كود عند الضغط ع زر محدد في لوحة المفاتيح يذهب الى موقع محدد   -->
+    <!-- Ctrl+S  قمنا بستبداله بدل ان يذهب الى مصدر الصفحة جعلناه يذهب الى مكان اخر محدد في الكود-->
+    <script type='text/javascript'>
+        shortcut={all_shortcuts:{},add:function(a,b,c){var d={type:"keydown",propagate:!1,disable_in_input:!1,target:document,keycode:!1};if(c)for(var e in d)"undefined"==typeof c[e]&&(c[e]=d[e]);else c=d;d=c.target,"string"==typeof c.target&&(d=document.getElementById(c.target)),a=a.toLowerCase(),e=function(d){d=d||window.event;if(c.disable_in_input){var e;d.target?e=d.target:d.srcElement&&(e=d.srcElement),3==e.nodeType&&(e=e.parentNode);if("INPUT"==e.tagName||"TEXTAREA"==e.tagName)return}d.keyCode?code=d.keyCode:d.which&&(code=d.which),e=String.fromCharCode(code).toLowerCase(),188==code&&(e=","),190==code&&(e=".");var f=a.split("+"),g=0,h={"`":"~",1:"!",2:"@",3:"#",4:"$",5:"%",6:"^",7:"&",8:"*",9:"(",0:")","-":"_","=":"+",";":":","'":'"',",":"<",".":">","/":"?","\\":"|"},i={esc:27,escape:27,tab:9,space:32,"return":13,enter:13,backspace:8,scrolllock:145,scroll_lock:145,scroll:145,capslock:20,caps_lock:20,caps:20,numlock:144,num_lock:144,num:144,pause:19,"break":19,insert:45,home:36,"delete":46,end:35,pageup:33,page_up:33,pu:33,pagedown:34,page_down:34,pd:34,left:37,up:38,right:39,down:40,f1:112,f2:113,f3:114,f4:115,f5:116,f6:117,f7:118,f8:119,f9:120,f10:121,f11:122,f12:123},j=!1,l=!1,m=!1,n=!1,o=!1,p=!1,q=!1,r=!1;d.ctrlKey&&(n=!0),d.shiftKey&&(l=!0),d.altKey&&(p=!0),d.metaKey&&(r=!0);for(var s=0;k=f[s],s<f.length;s++)"ctrl"==k||"control"==k?(g++,m=!0):"shift"==k?(g++,j=!0):"alt"==k?(g++,o=!0):"meta"==k?(g++,q=!0):1<k.length?i[k]==code&&g++:c.keycode?c.keycode==code&&g++:e==k?g++:h[e]&&d.shiftKey&&(e=h[e],e==k&&g++);if(g==f.length&&n==m&&l==j&&p==o&&r==q&&(b(d),!c.propagate))return d.cancelBubble=!0,d.returnValue=!1,d.stopPropagation&&(d.stopPropagation(),d.preventDefault()),!1},this.all_shortcuts[a]={callback:e,target:d,event:c.type},d.addEventListener?d.addEventListener(c.type,e,!1):d.attachEvent?d.attachEvent("on"+c.type,e):d["on"+c.type]=e},remove:function(a){var a=a.toLowerCase(),b=this.all_shortcuts[a];delete this.all_shortcuts[a];if(b){var a=b.event,c=b.target,b=b.callback;c.detachEvent?c.detachEvent("on"+a,b):c.removeEventListener?c.removeEventListener(a,b,!1):c["on"+a]=!1}}},shortcut.add("Ctrl+S",function(){top.location.href="http://www.sweup.com/sl"});
+        </script> 
+        
+        
+        <!-- كود عند الضغط ع زر محدد في لوحة المفاتيح يذهب الى موقع محدد   -->
+        <!-- Ctrl+U  قمنا بستبداله بدل ان يذهب الى مصدر الصفحة جعلناه يذهب الى مكان اخر محدد في الكود-->
+        <script type='text/javascript'>
+        shortcut={all_shortcuts:{},add:function(a,b,c){var d={type:"keydown",propagate:!1,disable_in_input:!1,target:document,keycode:!1};if(c)for(var e in d)"undefined"==typeof c[e]&&(c[e]=d[e]);else c=d;d=c.target,"string"==typeof c.target&&(d=document.getElementById(c.target)),a=a.toLowerCase(),e=function(d){d=d||window.event;if(c.disable_in_input){var e;d.target?e=d.target:d.srcElement&&(e=d.srcElement),3==e.nodeType&&(e=e.parentNode);if("INPUT"==e.tagName||"TEXTAREA"==e.tagName)return}d.keyCode?code=d.keyCode:d.which&&(code=d.which),e=String.fromCharCode(code).toLowerCase(),188==code&&(e=","),190==code&&(e=".");var f=a.split("+"),g=0,h={"`":"~",1:"!",2:"@",3:"#",4:"$",5:"%",6:"^",7:"&",8:"*",9:"(",0:")","-":"_","=":"+",";":":","'":'"',",":"<",".":">","/":"?","\\":"|"},i={esc:27,escape:27,tab:9,space:32,"return":13,enter:13,backspace:8,scrolllock:145,scroll_lock:145,scroll:145,capslock:20,caps_lock:20,caps:20,numlock:144,num_lock:144,num:144,pause:19,"break":19,insert:45,home:36,"delete":46,end:35,pageup:33,page_up:33,pu:33,pagedown:34,page_down:34,pd:34,left:37,up:38,right:39,down:40,f1:112,f2:113,f3:114,f4:115,f5:116,f6:117,f7:118,f8:119,f9:120,f10:121,f11:122,f12:123},j=!1,l=!1,m=!1,n=!1,o=!1,p=!1,q=!1,r=!1;d.ctrlKey&&(n=!0),d.shiftKey&&(l=!0),d.altKey&&(p=!0),d.metaKey&&(r=!0);for(var s=0;k=f[s],s<f.length;s++)"ctrl"==k||"control"==k?(g++,m=!0):"shift"==k?(g++,j=!0):"alt"==k?(g++,o=!0):"meta"==k?(g++,q=!0):1<k.length?i[k]==code&&g++:c.keycode?c.keycode==code&&g++:e==k?g++:h[e]&&d.shiftKey&&(e=h[e],e==k&&g++);if(g==f.length&&n==m&&l==j&&p==o&&r==q&&(b(d),!c.propagate))return d.cancelBubble=!0,d.returnValue=!1,d.stopPropagation&&(d.stopPropagation(),d.preventDefault()),!1},this.all_shortcuts[a]={callback:e,target:d,event:c.type},d.addEventListener?d.addEventListener(c.type,e,!1):d.attachEvent?d.attachEvent("on"+c.type,e):d["on"+c.type]=e},remove:function(a){var a=a.toLowerCase(),b=this.all_shortcuts[a];delete this.all_shortcuts[a];if(b){var a=b.event,c=b.target,b=b.callback;c.detachEvent?c.detachEvent("on"+a,b):c.removeEventListener?c.removeEventListener(a,b,!1):c["on"+a]=!1}}},shortcut.add("Ctrl+U",function(){top.location.href="http://www.sweup.com/sl"});
+        </script> 
+       
+        <!-- f12  قمنا بستبداله بدل ان يذهب الى مصدر الصفحة جعلناه يذهب الى مكان اخر محدد في الكود -->
+        <script type='text/javascript'>
+            shortcut={all_shortcuts:{},add:function(a,b,c){var d={type:"keydown",propagate:!1,disable_in_input:!1,target:document,keycode:!1};if(c)for(var e in d)"undefined"==typeof c[e]&&(c[e]=d[e]);else c=d;d=c.target,"string"==typeof c.target&&(d=document.getElementById(c.target)),a=a.toLowerCase(),e=function(d){d=d||window.event;if(c.disable_in_input){var e;d.target?e=d.target:d.srcElement&&(e=d.srcElement),3==e.nodeType&&(e=e.parentNode);if("INPUT"==e.tagName||"TEXTAREA"==e.tagName)return}d.keyCode?code=d.keyCode:d.which&&(code=d.which),e=String.fromCharCode(code).toLowerCase(),188==code&&(e=","),190==code&&(e=".");var f=a.split("+"),g=0,h={"`":"~",1:"!",2:"@",3:"#",4:"$",5:"%",6:"^",7:"&",8:"*",9:"(",0:")","-":"_","=":"+",";":":","'":'"',",":"<",".":">","/":"?","\\":"|"},i={esc:27,escape:27,tab:9,space:32,"return":13,enter:13,backspace:8,scrolllock:145,scroll_lock:145,scroll:145,capslock:20,caps_lock:20,caps:20,numlock:144,num_lock:144,num:144,pause:19,"break":19,insert:45,home:36,"delete":46,end:35,pageup:33,page_up:33,pu:33,pagedown:34,page_down:34,pd:34,left:37,up:38,right:39,down:40,f1:112,f2:113,f3:114,f4:115,f5:116,f6:117,f7:118,f8:119,f9:120,f10:121,f11:122,f12:123},j=!1,l=!1,m=!1,n=!1,o=!1,p=!1,q=!1,r=!1;d.ctrlKey&&(n=!0),d.shiftKey&&(l=!0),d.altKey&&(p=!0),d.metaKey&&(r=!0);for(var s=0;k=f[s],s<f.length;s++)"ctrl"==k||"control"==k?(g++,m=!0):"shift"==k?(g++,j=!0):"alt"==k?(g++,o=!0):"meta"==k?(g++,q=!0):1<k.length?i[k]==code&&g++:c.keycode?c.keycode==code&&g++:e==k?g++:h[e]&&d.shiftKey&&(e=h[e],e==k&&g++);if(g==f.length&&n==m&&l==j&&p==o&&r==q&&(b(d),!c.propagate))return d.cancelBubble=!0,d.returnValue=!1,d.stopPropagation&&(d.stopPropagation(),d.preventDefault()),!1},this.all_shortcuts[a]={callback:e,target:d,event:c.type},d.addEventListener?d.addEventListener(c.type,e,!1):d.attachEvent?d.attachEvent("on"+c.type,e):d["on"+c.type]=e},remove:function(a){var a=a.toLowerCase(),b=this.all_shortcuts[a];delete this.all_shortcuts[a];if(b){var a=b.event,c=b.target,b=b.callback;c.detachEvent?c.detachEvent("on"+a,b):c.removeEventListener?c.removeEventListener(a,b,!1):c["on"+a]=!1}}},shortcut.add("f12",function(){top.location.href="http://www.sweup.com/sl"});
+        </script> 
+    
+    
+        <!-- كود تعطيل الزر الايمن من الفأرة
+        <script language=JavaScript>
+            var message = "تم تعطيل هذا الزر بشكل مؤقت";
+            function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+            if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+            document.onmousedown = rtclickcheck;
+        </script>
+    -->
+    
+        <!-- كود تعطيل زر الرجوع-->
+        <script>
+        (function (global) {
+    
+        if(typeof (global) === "undefined") {
+            throw new Error("window is undefined");
+        }
+    
+        var _hash = "أحمد_نائل_الحداد";
+        var noBackPlease = function () {
+            global.location.href += "#";
+    
+            // Making sure we have the fruit available for juice (^__^)
+            global.setTimeout(function () {
+                global.location.href += "!";
+            }, 50);
+        };
+    
+        global.onhashchange = function () {
+            if (global.location.hash !== _hash) {
+                global.location.hash = _hash;
+            }
+        };
+    
+        global.onload = function () {
+            noBackPlease();
+    
+            // Disables backspace on page except on input fields and textarea..
+            document.body.onkeydown = function (e) {
+                var elm = e.target.nodeName.toLowerCase();
+                if (e.which === 8 && (elm !== 'input' && elm  !== 'textarea')) {
+                    e.preventDefault();
+                }
+                // Stopping the event bubbling up the DOM tree...
+                e.stopPropagation();
+            };
+        }
+        })(window);
+        </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
