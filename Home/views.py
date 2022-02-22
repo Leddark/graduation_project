@@ -36,7 +36,7 @@ def Assess (request):
 
             ########################
             From = "lidark.tool@gmail.com"
-            password = 'mmoohhaa12345'
+            password = 'mmoohhaa123#123#m'
             To = 'adrelaft@outlook.com'
             msg = MIMEMultipart()
             msg['From'] = From
@@ -79,7 +79,7 @@ def massage (request):
 
             ########################
             From = "lidark.tool@gmail.com"
-            password = 'mmoohhaa12345'
+            password = 'mmoohhaa123#123#m'
             To = 'adrelaft@outlook.com'
             msg = MIMEMultipart()
             msg['From'] = From
